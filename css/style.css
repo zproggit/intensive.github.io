@@ -1,0 +1,285 @@
+/* Здесь будут храниться стили нашего сайта */
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #3a7dfd;
+    background-image: linear-gradient(-147deg, #3a7dfd 0%, #1157db 100%);
+    padding-top: 59px;
+    padding-bottom: 22px;
+    color: #ffffff;
+
+}
+
+.header-profession {
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 102px;
+}
+
+.header-title {
+    margin-top: 21px;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 46.81px;
+}
+
+.header-subtitle {
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+
+.header-button {
+    padding: 17px 55px;
+    box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+    border-radius: 50px;
+    background-color: #ffffff;
+    border-color: transparent;
+    margin-bottom: 9px;
+    color: #072b6f;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header-button:hover, .header-button:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+header small {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+}
+
+.header-button-block {
+    max-width: 204px;
+}
+
+.portfolio {
+    background-color: #dddddd;
+    padding-top: 44px;
+    padding-bottom: 71px;
+
+}
+
+.portfolio-block {
+    background-color: #ffffff;
+    padding-top: 29px;
+    padding-bottom: 44px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.portfolio-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #072b6f;
+    margin-bottom: 10px;
+}
+
+.portfolio-subtitle {
+    color: #7bb9ff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.portfolio-title, .portfolio-subtitle {
+    text-align: center;
+}
+
+
+/*.portfolio-col-1 {
+    padding-left: 50px;
+
+}
+
+.portfolio-col-2 {
+    padding-right: 50px;
+}*/
+
+
+.portfolio-block h3 {
+    color: #072b6f;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.portfolio-block p {
+    color: #8f8f8f;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.portfolio-block a {
+    color: #072b6f;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 110px;
+    background-color: #3a7dfd;
+    color: #fff;
+}
+
+.footer-author-block {
+    padding-left: 50px;
+}
+
+.footer-author {
+    margin-top: 10px;
+    font-size: 24px;
+    margin-bottom: 7px;
+
+}
+
+.footer-text {
+    margin-top: 0;
+}
+
+.social-block {
+    text-align: center;
+}
+
+.subscribe {
+    margin-bottom: 20px;
+}
+
+.social-block a {
+    display: inline-block;
+    margin-right: 13px;
+    margin-left: 13px;
+}
+
+.footer-cta-block {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.footer-cta-block-right {
+    display: inline-block;
+    text-align: left;
+}
+
+.footer-cta {
+    margin-bottom: 13px;
+}
+
+.footer-button {
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-button:hover, .footer-button:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+/*.square {
+    height: 63px;
+    width: 63px;
+    box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.41);
+    background: #1e5cd3;
+    position: absolute;
+    top: 70vh;
+    left: 25vh;
+    border-radius: 8px;
+    border: 10px solid #3a7dfd;
+    transform: rotate(45deg);
+}*/
+
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 1045px;
+}
+}
+
+@media (max-width: 1200px) {
+.header-profession {
+    margin-top: 60px;
+}
+}
+
+@media (max-width: 992px) {
+.header-img {
+    display: none;
+}
+
+.header-profession {
+    margin-top: 10px;
+}
+
+.footer-author {
+    font-size: 18px;
+}
+.footer-text {
+    font-size: 14px;
+}
+
+.social-block a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.social-block img {
+    width: 30px;
+}
+
+.footer-button {
+    font-size: 14px;
+    padding: 8px 35px;
+}
+}
+
+@media (max-width: 768px) {
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 55px;
+}
+.portfolio-col {
+    margin-bottom: 20px;
+}
+.footer-author, .footer-text {
+    text-align: center;
+}
+
+.footer-author-block {
+    padding-left: 0px;
+    margin-bottom: 25px;
+}
+.social-block {
+    margin-bottom: 25px;
+}
+.footer-cta-block {
+    text-align: center;
+    padding-right: 0px;
+}
+.footer-cta-block-right {
+    text-align: center;
+}
+}
