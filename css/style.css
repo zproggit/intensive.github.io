@@ -50,6 +50,8 @@ header {
     color: #072b6f;
     font-size: 18px;
     font-weight: 700;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .header-button:hover, .header-button:focus {
@@ -192,6 +194,7 @@ footer {
     color: #ffffff;
     font-size: 18px;
     font-weight: 400;
+    text-decoration: none;
 }
 
 .footer-button:hover, .footer-button:focus {
